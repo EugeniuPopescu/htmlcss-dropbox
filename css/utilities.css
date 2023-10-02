@@ -95,6 +95,14 @@
 .py-16 { padding: 16px 0; }
 .px-16 { padding: 0 16px; }
 
+.p-32 { padding: 32px; }
+.pt-32 { padding-top: 32px; }
+.pr-32 { padding-right: 32px; }
+.pb-32 { padding-bottom: 32px; }
+.pl-32 { padding-left: 32px; }
+.py-32 { padding: 32px 0; }
+.px-32 { padding: 0 32px; }
+
 .p-64 { padding: 64px; }
 .pt-64 { padding-top: 64px; }
 .pr-64 { padding-right: 64px; }
