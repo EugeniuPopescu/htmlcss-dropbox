@@ -1,0 +1,13 @@
+.header-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	min-height: 300px;
+    padding-top: 64px;
+}
+.bigColumn-jumbo {
+	width: 67%;
+    height: 340px;
+}
+.smallColumn-jumbo {
+	width: 33%;
+}

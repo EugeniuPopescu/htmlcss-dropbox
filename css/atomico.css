@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*** HEADER ***/
 header {
     height: 100px;
 }
@@ -21,4 +22,20 @@ a {
 	color: white;
     font-size: medium;
     padding: 8px 10px;
+}
+
+/*** MAIN ***/
+main {
+    height: calc(100vh -100px);
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.jumbo-img {
+    width: 620px;
+    height: 400px;
 }

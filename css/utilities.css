@@ -116,7 +116,7 @@
 .bg-goldenrod { background-color: goldenrod; }
 .bg-darkblue { background-color: darkblue; }
 .bg-darkgrey { background-color: darkgrey; }
-.bg-dodgerblue { background-color: dodgerblue; }
+.bg-dodgerblue { background-color: rgba(30, 140, 255, 0.400); }
 .bg-pink { background-color: pink; }
 .bg-red { background-color: red; }
 .bg-grey { background-color: grey; }
