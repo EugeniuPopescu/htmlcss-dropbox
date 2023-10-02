@@ -11,7 +11,7 @@ header {
 	list-style: none;
 }
 
-a {
+.a-link {
 	text-decoration: none;
     color: grey;
 }
@@ -38,4 +38,37 @@ h1 {
 .jumbo-img {
     width: 620px;
     height: 400px;
+}
+
+.singolo, .team, .azienda {
+    min-height: 600px;
+    width: 280px;
+    background-color: orange;
+}
+
+.team2 {
+    min-height: 200px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.card {
+    width: calc(100% / 3 - 20px);
+    min-height: 400px;
+    background-color: orange;
+}
+
+.box-container {
+    width: 100vw;
+    max-height: 400px;
+}
+
+.box {
+    width: calc(100% / 3 );
+    background-color: blue;
+}
+
+.card-box {
+    width: calc(100% / 2);
+    height: 200px;
 }

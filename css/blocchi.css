@@ -1,4 +1,4 @@
-.header-container {
+.jumbo-container {
 	max-width: 1100px;
 	margin: 0 auto;
 	min-height: 300px;
@@ -10,4 +10,20 @@
 }
 .smallColumn-jumbo {
 	width: 33%;
+}
+
+.business-container {
+	max-width: 900px;
+	margin: 0 auto;
+	min-height: 300px;
+}
+
+.bigColumn-main {
+	width: 60%;
+    height: 400px;
+    background-color: chartreuse;
+}
+.smallColumn-main {
+	width: 40%;
+    background-color: darkcyan;
 }
