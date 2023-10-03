@@ -116,6 +116,7 @@ div > a {
     text-decoration: underline;
 }
 
+/* cards */
 .box-container {
     width: 100vw;
     max-height: 400px;
@@ -131,6 +132,15 @@ div > a {
     height: 200px;
 }
 
+.card-img {
+    width: 60%;
+    filter: invert(1);
+}
+
+.small-card {
+    margin: 1em;
+    padding: 4.5em;
+}
 /*** FOOTER ***/
 
 li {
