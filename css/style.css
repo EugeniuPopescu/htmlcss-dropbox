@@ -99,13 +99,22 @@ div > a {
     width: 95%;
 }
 
+/* operations */
+.operations-img {
+    width: 100%;
+    
+}
+
 .card {
     width: calc(100% / 3 - 20px);
     min-height: 400px;
-    background-color: orange;
 }
 
-
+/* business */
+#business {
+    color: blue;
+    text-decoration: underline;
+}
 
 .box-container {
     width: 100vw;
