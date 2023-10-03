@@ -17,6 +17,11 @@ header {
     color: grey;
 }
 
+.a-link:hover {
+    padding-bottom: 22px;
+    border-bottom: 2px solid black;
+}
+
 .btn {
     border: none;
 	background: blue;

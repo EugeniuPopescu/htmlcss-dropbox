@@ -19,6 +19,7 @@
 .flex-justify-center { justify-content: center; }
 .flex-align-center { align-items: center; }
 .flex-align-start { align-items: flex-start; }
+.flex-alignContent-center { align-content: center;}
 .f-wrap{flex-wrap:wrap;}
 
 /*** WIDTH ***/
