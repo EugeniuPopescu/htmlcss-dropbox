@@ -2,14 +2,26 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.btn {
+    border: none;
+	background: blue;
+	color: white;
+    font-size: medium;
+    padding: 8px 10px;
+}
+
+.btn-white {
+    border: none;
+	background: white;
+	color: black;
+    font-size: medium;
+    padding: 8px 25px;
+}
+
 /*** HEADER ***/
 header {
     width: 100%;
     box-shadow: 0 1px 2px #dedede;
-}
-
-#menu-column > ul {
-	list-style-type: none;
 }
 
 .a-link {
@@ -20,14 +32,6 @@ header {
 .a-link:hover {
     padding-bottom: 22px;
     border-bottom: 3px solid black;
-}
-
-.btn {
-    border: none;
-	background: blue;
-	color: white;
-    font-size: medium;
-    padding: 8px 10px;
 }
 
 /*** MAIN ***/
@@ -41,7 +45,7 @@ h1 {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 30px;
 }
 
 .down-arrow {
@@ -84,4 +88,16 @@ h2 {
 .card-box {
     width: calc(100% / 2);
     height: 200px;
+}
+
+/*** FOOTER ***/
+
+li {
+    list-style-type: none;
+}
+
+.hr-footer {
+    position: absolute;
+    left: 70px;
+    width: 10%;
 }

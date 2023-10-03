@@ -95,6 +95,8 @@
 
 /*** PADDINGS ***/
 .p-4 { padding: 4px; }
+.px-4 { padding: 0 4px; }
+.py-4 { padding: 4px 0; }
 .p-8 { padding: 8px; }
 .pt-8 { padding-top: 8px; }
 .pr-8 { padding-right: 8px; }
@@ -156,6 +158,7 @@
 .bg-darkslategray { background-color: darkslategray; }
 .bg-lightgray { background-color: lightgray; }
 .bg-nome { background-color: nome; }
+.bg-bordeaux { background-color: brown; }
 
 /*** BACKGROUND COLORS ***/
 .c-lightblue {color: lightblue; }
@@ -174,6 +177,7 @@
 .c-lightgray {color: lightgray; }
 .c-white {color: white; }
 .c-nome {color: nome; }
+.c-bordeaux { color: rgb(100, 27, 27); }
 
 
 /*** FONT-SIZE ***/
