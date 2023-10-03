@@ -19,7 +19,7 @@ header {
 
 .a-link:hover {
     padding-bottom: 22px;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 
 .btn {
@@ -37,8 +37,16 @@ main {
 
 h1 {
     font-size: 64px;
-    font-weight: bold;
     margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+.down-arrow {
+    height: 50px;
+    margin-top: 60px;
 }
 
 .jumbo-img {
