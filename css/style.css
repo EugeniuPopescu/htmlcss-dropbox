@@ -19,6 +19,14 @@ body {
     padding: 8px 25px;
 }
 
+.btn-white-border {
+    border: 2px solid grey;
+	background: white;
+	color: black;
+    font-size: medium;
+    padding: 8px 25px;
+}
+
 /*** HEADER ***/
 header {
     width: 100%;
@@ -49,6 +57,7 @@ h2 {
     font-size: 30px;
 }
 
+/* jumbo */
 .down-arrow {
     height: 50px;
     margin-top: 60px;
@@ -58,6 +67,7 @@ h2 {
     width: 95%;
 }
 
+/* sngle-cards */
 .single-card {
     height: 1100px;
     width: 280px;
@@ -84,11 +94,18 @@ div > a {
     border-bottom: 1px solid rgba(120, 120, 120, 0.5);
 }
 
+/* parteners */
+.partner-img {
+    width: 95%;
+}
+
 .card {
     width: calc(100% / 3 - 20px);
     min-height: 400px;
     background-color: orange;
 }
+
+
 
 .box-container {
     width: 100vw;

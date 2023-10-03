@@ -26,9 +26,7 @@
 .bigColumn-main {
 	width: 60%;
     height: 400px;
-    background-color: chartreuse;
 }
 .smallColumn-main {
 	width: 40%;
-    background-color: darkcyan;
 }
