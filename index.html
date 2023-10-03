@@ -9,9 +9,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Fredericka+the+Great&family=Fredoka&family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/atomico.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/utilities.css">
-        <link rel="stylesheet" href="./css/blocchi.css">
+        <link rel="stylesheet" href="./css/containers.css">
     </head>
 
 
@@ -111,9 +112,12 @@
             <div class="business-container pt-128">
                 <h2>Trova il piano Business che fa per te</h2>
                 
-                <!-- check-box -->
+                <!-- radio-box -->
                 <div class="py-64">
-                    <input type="checkbox" name="" id="">Fatturazione Mensile
+                    <input type="radio" name="fatturazione">
+                    <label for="1">Fatturazione mensile</label>
+                    <input class="ml-32" type="radio" name="fatturazione">
+                    <label for="2">Fatturazione annuale</label> 
                 </div>
 
                 <div class="d-flex flex-justify-between flex-align-center">
