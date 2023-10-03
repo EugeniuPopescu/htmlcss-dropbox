@@ -8,6 +8,7 @@ body {
 	color: white;
     font-size: medium;
     padding: 8px 10px;
+    text-align: center;
 }
 
 .btn-white {
@@ -57,16 +58,30 @@ h2 {
     width: 95%;
 }
 
-.singolo, .team, .azienda {
-    min-height: 600px;
+.single-card {
+    height: 1100px;
     width: 280px;
-    background-color: orange;
+    border: 1px solid rgba(120, 120, 120, 0.5);
 }
 
-.team2 {
+p > a {
+    color: blue;
+}
+
+div > a {
+    text-decoration: none;
+    color: white;
+}
+
+.single-card2 {
     min-height: 200px;
     width: 100%;
-    background-color: aqua;
+    border: 1px solid rgba(120, 120, 120, 0.5);
+}
+
+.head {
+    text-align: center;
+    border-bottom: 1px solid rgba(120, 120, 120, 0.5);
 }
 
 .card {

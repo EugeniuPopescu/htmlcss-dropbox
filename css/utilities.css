@@ -98,6 +98,7 @@
 .px-4 { padding: 0 4px; }
 .py-4 { padding: 4px 0; }
 .p-8 { padding: 8px; }
+.pt-4 { padding-top: 4px; }
 .pt-8 { padding-top: 8px; }
 .pr-8 { padding-right: 8px; }
 .pb-8 { padding-bottom: 8px; }
@@ -175,6 +176,7 @@
 .c-aquamarine {color: aquamarine; }
 .c-darkslategray {color: darkslategray; }
 .c-lightgray {color: lightgray; }
+.c-grey { color: grey; }
 .c-white {color: white; }
 .c-nome {color: nome; }
 .c-bordeaux { color: rgb(100, 27, 27); }
