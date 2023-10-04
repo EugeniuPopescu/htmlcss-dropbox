@@ -2,21 +2,48 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.btn {
+/* btn */
+/* .btn {
     border: none;
 	background: blue;
 	color: white;
     font-size: medium;
     padding: 8px 10px;
     text-align: center;
+} */
+
+.btn {
+    padding: 0.5em 1em;
+    background-color: blue;
+    border: none;
+    user-select: none;
+    font-size: medium;
+    transition: all 0.2s linear;
+    color: #fff;
+    text-align: center;
 }
+
+.btn:hover {
+    background-color: black;
+    border-radius: 0;
+    scale: 1.1;
+}
+
 
 .btn-white {
     border: none;
 	background: white;
-	color: black;
+    padding: 0.5em 1em;
+    user-select: none;
     font-size: medium;
-    padding: 8px 25px;
+    transition: all 0.2s linear;
+    text-align: center;
+}
+
+.btn-white:hover {
+    background-color: blue;
+    border-radius: 0;
+    scale: 1.1;
 }
 
 .btn-white-border {
@@ -25,7 +52,18 @@ body {
 	color: black;
     font-size: medium;
     padding: 8px 25px;
+
+    user-select: none;
+    transition: all 0.2s linear;
+    text-align: center;
 }
+
+.btn-white-border:hover {
+    background-color: blue;
+    border: 0;
+    scale: 1.1;
+}
+
 
 /*** HEADER ***/
 header {
