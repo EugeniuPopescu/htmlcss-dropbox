@@ -71,6 +71,10 @@ header {
     box-shadow: 0 1px 2px #dedede;
 }
 
+li {
+    list-style-type: none;
+}
+
 .a-link {
 	text-decoration: none;
     color: grey;
@@ -224,6 +228,9 @@ button > a {
     color: grey;
     width: 20%;
 }
+
+/* faq hover */
+.p-hover
 
 /*** FOOTER ***/
 
